@@ -6,7 +6,7 @@
   <h3 align="center">Contador</h3>
 
   <p align="center">
-    Aplicação para contar dias, horas, minutos e segundos
+    Aplicação para contar horas, minutos e segundos
        <br />
     <br />
     <a href="https://github.com/Lorenalgm/contador">Desafio</a>
@@ -27,16 +27,7 @@
   * [Tipo de fonte](#tipo-de-fonte)
 * [Compartilhe](#compartilhe)
 
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador!
 
-# Desafio
-Seu desafio é criar um contador (com dias, horas, minutos e segundos), a partir de uma data definida pelo usuário! O modelo final está disponível na pasta "design"
-
-
-
-<img src="https://i.ibb.co/HhNTTzB/mockuper-6.png" width="450" height="350">
-<img src="https://i.ibb.co/9cMFW5s/mockuper-7.png" width="450" height="350">
 
 # Techs: 
 Javascript<br>
