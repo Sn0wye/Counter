@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,11 +6,11 @@
 }
 :root {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'Roboto';
 }
 $bg-color: #000;
 $main-color: #aa14f0;
-$secondary-color: #bc8cf2;
+$secondary-color: #191a18;
 $text-color: #dbd8e3;
 
 .container {
@@ -26,6 +27,16 @@ $text-color: #dbd8e3;
   label {
     color: $text-color;
   }
+  input {
+    border: 10px solid $secondary-color;
+    border-radius: 10px;
+    width: 15rem;
+    height: 2.5rem;
+    text-align: center;
+    background-color: #191a18;
+    color: $text-color;
+    margin-top: auto;
+  }
   button {
     background-color: $main-color;
     color: black;
@@ -33,11 +44,9 @@ $text-color: #dbd8e3;
     border-radius: 15px;
     font-size: 1.5rem;
     cursor: pointer;
-  }
-  input {
-    border: 5px solid #dbd8e3;
-    border-radius: 15px;
-    width: 5rem;
+    margin-top: 0.5rem;
+    height: 3.5rem;
+    width: 15rem;
   }
 }
 

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,7 +8,7 @@
 
 :root {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'Roboto';
 }
 
 .container {
@@ -35,6 +36,17 @@
   color: #dbd8e3;
 }
 
+.container input {
+  border: 10px solid #191a18;
+  border-radius: 10px;
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  background-color: #191a18;
+  color: #dbd8e3;
+  margin-top: auto;
+}
+
 .container button {
   background-color: #aa14f0;
   color: black;
@@ -42,12 +54,9 @@
   border-radius: 15px;
   font-size: 1.5rem;
   cursor: pointer;
-}
-
-.container input {
-  border: 5px solid #dbd8e3;
-  border-radius: 15px;
-  width: 5rem;
+  margin-top: 0.5rem;
+  height: 3.5rem;
+  width: 15rem;
 }
 
 body {
