@@ -1,0 +1,15 @@
+nav {
+  height: 10vh;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+nav li {
+}
+.container h1 {
+  color: var(--secondary-color);
+}
