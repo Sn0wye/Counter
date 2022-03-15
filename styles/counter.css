@@ -5,11 +5,65 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 1rem 1rem;
 }
-nav li {
+#logo {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: var(--main-color);
 }
-.container h1 {
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 10rem);
+  grid-template-rows: repeat(3, 10rem);
+  grid-template-areas:
+    'remains remains remains'
+    'hourNum minNum secNum'
+    'hour min sec';
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+}
+/* --- Remains --- */
+.container label {
   color: var(--secondary-color);
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  grid-area: remains;
+}
+.container .number {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 7rem;
+  text-align: center;
+}
+.container .text {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#hourNum {
+  grid-area: hourNum;
+}
+#minNum {
+  grid-area: minNum;
+}
+#secNum {
+  grid-area: secNum;
+}
+#hour {
+  grid-area: hour;
+}
+#min {
+  grid-area: min;
+}
+#sec {
+  grid-area: sec;
 }
