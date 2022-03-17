@@ -28,11 +28,11 @@ const time = (myInterval) => {
 };
 
 function msToTime(millis) {
-  var hours = Math.floor(millis / 360000000);
-  var minutes = Math.floor(millis / 1000 / 60) % 60;
-  var seconds = Math.floor(millis / 1000) % 60;
-  console.log(hours, minutes, seconds);
-  return [hours, minutes, seconds];
+  let h, m, s;
+  h = Math.floor(millis / 1000 / 60 / 60);
+  m = Math.floor((millis / 1000 / 60 / 60 - h) * 60);
+  s = Math.floor(((millis / 1000 / 60 / 60 - h) * 60 - m) * 60);
+  return [h, m, s];
 }
 
-const myInterval = setInterval(time, 1000);
+var myInterval = setInterval(time, 1000);
