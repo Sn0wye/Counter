@@ -1,6 +1,14 @@
 const counterHTML = document.querySelector("#counter");
 const timeString = localStorage.getItem("Time");
 
+const resetBtn = document.getElementById("resetBtn");
+
+resetBtn.addEventListener("click", reset);
+
+function reset() {
+  window.location.reload();
+}
+
 function timeToAdd(stringTime) {
   const timeArray = stringTime.split(":");
   const hoursInMiliseconds = timeArray[0] * 60 * 60 * 1000;
