@@ -1,5 +1,13 @@
 const form = document.querySelector("form");
 const timeInput = document.querySelector(".timeInput");
+const startButton = document.querySelector("startButton");
+
+window.addEventListener("keydown", keyPress);
+
+function keyPress({ key }) {
+  const button = document.querySelector(`[data-key='${key}']`);
+  button?.click();
+}
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
