@@ -21,7 +21,6 @@
 * [Techs](#techs)
   * [Modelo](#modelo)  
   * [Tipo de fonte](#tipo-de-fonte)
-* [Compartilhe](#compartilhe)
 
 
 
