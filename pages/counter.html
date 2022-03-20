@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/styles/img/clock-svgrepo-com.svg" />
-    <title>Counter</title>
-    <link rel="stylesheet" href="/styles/base.css" />
-    <link rel="stylesheet" href="/styles/counter.css" />
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li id="logo"><a href="../index.html">Counter</a></li>
-        <li><button onclick="reset" id="resetBtn">Reset</button></li>
-      </ul>
-    </nav>
-    <div class="container">
-      <label>Remains</label>
-      <span id="counter" class="number">00:00:00</span>
-      <span id="hour" class="text">Hours</span>
-      <span id="min" class="text">Minutes</span>
-      <span id="sec" class="text">Seconds</span>
-    </div>
-  </body>
-  <script src="../src/counter.js"></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/styles/img/clock-svgrepo-com.svg" />
+  <title>Counter</title>
+  <link rel="stylesheet" href="/styles/base.css" />
+  <link rel="stylesheet" href="/styles/counter.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li id="logo"><a href="../index.html">Counter</a></li>
+      <li><button id="resetBtn">Reset</button></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <label>Remains</label>
+    <span id="counter" class="number">00:00:00</span>
+    <span id="hour" class="text">Hours</span>
+    <span id="min" class="text">Minutes</span>
+    <span id="sec" class="text">Seconds</span>
+  </div>
+</body>
+<script src="../src/counter.js"></script>
+
 </html>
