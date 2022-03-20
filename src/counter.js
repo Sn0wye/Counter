@@ -1,7 +1,7 @@
 const counterHTML = document.querySelector("#counter");
 const timeString = localStorage.getItem("Time");
 
-const resetBtn = document.getElementById("resetBtn");
+const resetBtn = document.querySelector("#resetBtn");
 
 resetBtn.addEventListener("click", reset);
 
