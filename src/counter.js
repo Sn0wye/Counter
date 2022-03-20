@@ -1,9 +1,9 @@
 const counterHTML = document.querySelector("#counter");
 const timeString = localStorage.getItem("Time");
 
-const resetBtn = (document.querySelector("#resetBtn").onclick = () => {
+document.querySelector("#resetBtn").onclick = () => {
   window.location.reload();
-});
+};
 
 function timeToAdd(stringTime) {
   const timeArray = stringTime.split(":");
