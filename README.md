@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="http://www.freepik.com">
-    <img src="https://i.ibb.co/RzmJtXK/mockuper-5.png" alt="Logo" width="350" height="250">
-  </a>
+
 
   <h3 align="center">Contador</h3>
 
@@ -26,8 +24,8 @@
 
 # Techs: 
 Javascript<br>
-HTML<br>
-CSS<br>
+HTML5<br>
+CSS3<br>
 
 ## Modelo:
 O modelo está disponível na pasta `./design`<br>
