@@ -32,6 +32,13 @@ form {
   gap: 0.75rem;
 }
 
+.error {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: 5px;
+  border-radius: 15px;
+}
+
 @media (max-width: 700px) and (orientation: portrait) {
   .container {
     font-size: 1.5rem;
